@@ -515,6 +515,8 @@
     </Content>
     <Content Include="Payment.aspx" />
     <Content Include="Products.aspx" />
+    <Content Include="rama.aspx" />
+    <Content Include="RamaDelete.aspx" />
     <Content Include="RejectComment.aspx" />
     <Content Include="Reservations.aspx" />
     <Content Include="Scripts\sweetalert-dev.js" />
@@ -1076,6 +1078,20 @@
       <DependentUpon>Products.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rama.aspx.cs">
+      <DependentUpon>rama.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rama.aspx.designer.cs">
+      <DependentUpon>rama.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RamaDelete.aspx.cs">
+      <DependentUpon>RamaDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RamaDelete.aspx.designer.cs">
+      <DependentUpon>RamaDelete.aspx</DependentUpon>
+    </Compile>
     <Compile Include="RejectComment.aspx.cs">
       <DependentUpon>RejectComment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

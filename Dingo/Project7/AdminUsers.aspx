@@ -47,7 +47,7 @@
               <br />
     <asp:GridView ID="GridView1" runat="server" CssClass="table table-striped" AutoGenerateColumns="False">
         <Columns>
-            <asp:BoundField DataField="NameUser" HeaderText="User Name" />
+            <asp:BoundField DataField="Username" HeaderText="User Name" />
             <asp:BoundField DataField="UserName" HeaderText="Email" />
             <asp:BoundField DataField="PhoneNumber" HeaderText="Phone Number" />
             <asp:HyperLinkField DataNavigateUrlFields="Id" DataNavigateUrlFormatString="AdminUsersDelete.aspx?id={0}" Text="Delete" ControlStyle-CssClass="reject" HeaderText="Delete" >
